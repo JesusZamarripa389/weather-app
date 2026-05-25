@@ -33,7 +33,7 @@ function displayWeather(data) {
     const iconCode = data.weather[0].icon;
     document.getElementById('weather-icon').src = `https://openweathermap.org/img/wn/${iconCode}@2x.png`;
 
-    // Toque Pro: Cambiar fondo dinámico basado en el estado del clima
+    // cambiar fondo dinámico basado en el estado del clima
     const mainCondition = data.weather[0].main.toLowerCase();
     changeBackground(mainCondition);
 
