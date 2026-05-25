@@ -5,9 +5,9 @@
 
 Este es un proyecto de una Aplicación del Clima interactiva y responsiva. Permite a los usuarios buscar el estado del tiempo actual de cualquier ciudad del mundo en tiempo real, utilizando datos meteorológicos oficiales
 
-[cite_start]Este proyecto fue diseñado específicamente para demostrar habilidades sólidas en el desarrollo Frontend y el consumo de servicios web externos.
+Este proyecto fue diseñado específicamente para demostrar habilidades sólidas en el desarrollo Frontend y el consumo de servicios web externos.
 
-**[Haz clic aquí para ver la Demo en Vivo]([https://weather-app-zamarripa.netlify.app])**
+**[Haz clic aquí para ver la Demo en Vivo](https://weather-app-zamarripa.netlify.app)**
 
 ## Tecnologías Utilizadas
 
