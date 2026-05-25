@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    transition: background 0.8s ease; /* Transición suave para el fondo */
+}
+
+/* Fondos Dinámicos */
+.default-bg { background: linear-gradient(135deg, #1e3c72, #2a5298); }
+.sunny-bg   { background: linear-gradient(135deg, #f7b733, #fc4a1a); }
+.rainy-bg   { background: linear-gradient(135deg, #3a6073, #3a7bd5); }
+.cloudy-bg  { background: linear-gradient(135deg, #bdc3c7, #2c3e50); }
+
+.card {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 400px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    background: #ffffff;
+    color: #1e3c72;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover { background: #e0e0e0; }
+
+/* Clases de Control de Visibilidad */
+.weather-hidden, .error-hidden { display: none; }
+
+.error-message {
+    color: #ff6b6b;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#weather-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.details {
+    margin-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    padding-top: 15px;
+}

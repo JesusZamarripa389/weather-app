@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación del Clima</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="default-bg">
+<div class="card">
+    <div class="search-box">
+        <input type="text" id="city-input" placeholder="Escribe una ciudad..." autocomplete="off">
+        <button id="search-btn">Buscar</button>
+    </div>
+
+    <div id="error-message" class="error-hidden">Ciudad no encontrada. Intenta de nuevo.</div>
+
+    <div id="weather-info" class="weather-hidden">
+        <h2 id="city-name">Madrid, ES</h2>
+        <img id="weather-icon" src="" alt="Icono del clima">
+        <h1 id="temperature">22°C</h1>
+        <div class="details">
+            <div class="col">
+                <p>Humedad</p>
+                <span id="humidity">60%</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
